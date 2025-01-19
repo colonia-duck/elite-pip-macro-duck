@@ -20,7 +20,9 @@ If you want to build from source, you might need to install these packages:
 You can download the binary straight from Github and place it somewhere in `$PATH`.
 
 ### From Source
-`cargo install --git https://github.com/CMDR-WDX/elite-pip-macro`.
+```
+cargo install --git https://github.com/CMDR-WDX/elite-pip-macro
+```
 Make sure `~/.cargo/bin` is in your `$PATH` (or call it directly: `~/.cargo/bin/elite-pip-macro`
 
 See *Requirements* Section above in case the build fails because of system dependencies.
